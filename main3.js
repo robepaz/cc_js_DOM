@@ -1,2 +1,3 @@
-let borron = document.querySelector('#oaxaca')
-document.getElementById('more-destinations').removeChild(borron)
+const papa = document.querySelector('#more-destinations')
+const hijo = document.querySelector('#oaxaca')
+papa.removeChild(hijo)
